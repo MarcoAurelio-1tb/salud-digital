@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #FBF9F9;
+}
+
+h2 { 
+    color: black;
+}
+
+.salud-digital-title {
+    margin-top: 200px;
+    margin-bottom: 3rem;
+}
+
+/* NOTICIAS */
+
+.cont-noticias {
+    background-color: #Fff;
+    height: 600px;
+}
