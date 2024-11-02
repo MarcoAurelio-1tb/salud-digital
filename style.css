@@ -23,3 +23,33 @@ h2 {
     background-color: #Fff;
     height: 600px;
 }
+
+/* SALUD */
+
+.link-hover {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+}
+
+.link-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.link-hover:hover::after {
+    width: 100%;
+}
+
+.cont-salud {
+    background-color: #Fff;
+    height: 600px;
+}
