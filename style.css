@@ -20,8 +20,10 @@ h2 {
 /* NOTICIAS */
 
 .cont-noticias {
-    background-color: #Fff;
+    background-color: #FBF9F9;
     height: auto;
+    border: red solid 1px;
+    margin-bottom: 5rem;
 }
 
 /* SALUD */
@@ -51,7 +53,7 @@ h2 {
 
 .cont-salud {
     background-color: #Fff;
-    height: 600px;
+    height: auto;
 }
 
 @media (max-width: 768px) {
