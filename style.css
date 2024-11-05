@@ -22,8 +22,8 @@ h2 {
 .cont-noticias {
     background-color: #FBF9F9;
     height: auto;
-    border: red solid 1px;
-    margin-bottom: 5rem;
+    /* border: red solid 1px; */
+    margin-bottom: 3rem;
 }
 
 /* SALUD */
@@ -56,6 +56,12 @@ h2 {
     height: auto;
 }
 
+.cont-appsalud {
+    background-color: #Fff;
+    height: auto;
+    padding-bottom: 10rem;
+}
+
 @media (max-width: 768px) {
     .image-container {
         width: auto;
@@ -72,4 +78,15 @@ h2 {
     .div-notice {
         width: 50%;
     }
+}
+
+/* Aplicaciones de la salud */
+
+.app-salud-img {
+    /* border: green 1px solid; */
+    background-color: #f2f4fc;
+    width: 100%;         /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 200px;       /* Ajusta la altura deseada para todas las imágenes */
+    object-fit: scale-down;   /* Ajusta la imagen para que ocupe el contenedor sin distorsionarse */
+    border-radius: 10px;  /* Opcional: Añade esquinas redondeadas */
 }
