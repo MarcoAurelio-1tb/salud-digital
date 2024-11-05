@@ -21,7 +21,7 @@ h2 {
 
 .cont-noticias {
     background-color: #Fff;
-    height: 600px;
+    height: auto;
 }
 
 /* SALUD */
@@ -52,4 +52,22 @@ h2 {
 .cont-salud {
     background-color: #Fff;
     height: 600px;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        width: auto;
+    }
+    .cont-noticias, .cont-salud {
+        padding: 1rem;
+    }
+    .text-salud h1 {
+        font-size: 1.5rem;
+    }
+    .text-salud p {
+        font-size: 0.85rem;
+    }
+    .div-notice {
+        width: 50%;
+    }
 }
