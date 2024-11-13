@@ -89,4 +89,12 @@ h2 {
     height: 200px;       /* Ajusta la altura deseada para todas las imágenes */
     object-fit: scale-down;   /* Ajusta la imagen para que ocupe el contenedor sin distorsionarse */
     border-radius: 10px;  /* Opcional: Añade esquinas redondeadas */
+    transition: 0.5s ease;
+}
+
+.app-salud-img:hover {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    transition: 0.5s ease;
 }
