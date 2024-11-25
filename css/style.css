@@ -80,6 +80,23 @@ h2 {
     }
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer a:hover {
+    color: #0056b3; /* Azul Bootstrap al pasar el mouse */
+}
+
+
 /* Aplicaciones de la salud */
 
 .app-salud-img {
@@ -98,3 +115,6 @@ h2 {
     transform: scale(1.08);
     transition: 0.5s ease;
 }
+
+/* SALUD MENTAL */
+

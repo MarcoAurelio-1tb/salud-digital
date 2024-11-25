@@ -13,6 +13,7 @@
 
 .nav-link {
     margin: 0 10px;
+    border: solid 1px blue;
 }
 
 .navbar-brand:hover, .nav-link:hover {
