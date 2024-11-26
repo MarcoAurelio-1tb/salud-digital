@@ -62,7 +62,13 @@ h2 {
     padding-bottom: 10rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+    .salud-imagen {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 767px) {
     .image-container {
         width: auto;
     }
@@ -77,6 +83,9 @@ h2 {
     }
     .div-notice {
         width: 50%;
+    }
+    .salud-imagen {
+         margin-top: 0px;
     }
 }
 
