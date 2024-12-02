@@ -15,7 +15,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="navbar.html">
-                <img src="/img/salud-digital.png" alt="Logo Izquierdo" style="width: 170px; margin-right: 10px;">
+                <img src="/img/salud-digital.png" alt="Logo Izquierdo" style="width: 170px; margin-right: -10px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,16 +76,19 @@
         <div class="container-fluid"> <!--border border-primary -->
             <div class="row align-items-start p-5">
                 <div class="col-md-5 d-flex justify-content-center">
-                    <img src="/img/salud-mental/ansiedad.png" alt="Imagen de Salud" class="img-fluid rounded m-3" style="height: 50%;">
+                    <img src="/img/salud-mental/ansiedad.png" alt="Imagen de Salud" class="img-fluid rounded m-3 img-smental" style="height: 50%;">
                 </div>
             
                 <div class="col-md-7 d-flex flex-column justify-content-start text-salud p-5">
-                    <h1 class="fw-bold">Ansiedad</h1>
+                    <h1 class="fw-bold title-smental">Ansiedad</h1>
                     <!-- <p class="fs-4">Conoce nuestro departamento de salud.</p> -->
-                    <p class="text-muted" style="font-size: 0.9rem;">
+                    <p class="text-muted descr-smental">
                         La ansiedad es una reacción emocional normal ante situaciones amenazantes para el individuo al anticiparse a un peligro interno y/o externo, lo cual deriva a aprensión, tensión o inquietud.
                     </p>
-                    <button type="button" class="btn btn-outline-dark mt-4 col-sm-4">Leer más</button>
+                    <button type="button" class="btn btn-outline-dark mt-4 col-sm-4" 
+                    style="align-self: center; margin: 0 auto;">
+                        Leer más
+                    </button>
                 </div>
             </div>
         </div>
@@ -93,41 +96,42 @@
         <!-- DEPRESIÓN -->
 
         <div class="container-fluid mt-4 mb-4" style="background-color: #fff;"> <!--border border-primary -->
+            <!-- <div class="row align-items-start p-5 no-reverse"> -->
             <div class="row align-items-start p-5">
                 <div class="col-md-6 d-flex flex-column text-start text-salud p-5 m-4">
-                    <h1 class="fw-bold">Depresión</h1>
+                    <h1 class="fw-bold title-smental">Depresión</h1>
                     <!-- <p class="fs-4">Conoce nuestro departamento de salud.</p> -->
-                    <p class="text-muted" style="font-size: 0.9rem;">
+                    <p class="text-muted descr-smental">
                         La depresión es una condición mental que se diferencia de los cambios normales en el estado de ánimo y los sentimientos cotidianos. Afecta todos los aspectos de la vida, incluyendo las relaciones familiares, amistades y la comunidad.
                     </p>
                     <button type="button" class="btn btn-outline-dark col-sm-4 mt-4">Leer más</button>
                 </div>
 
                 <div class="col-md-5 d-flex justify-content-center">
-                    <img src="/img/salud-mental/depresion.png" alt="Imagen de Salud" class="img-fluid rounded" style="height: 50%;">
+                    <img src="/img/salud-mental/depresion.png" alt="Imagen de Salud" class="img-fluid rounded img-smental" style="height: 50%;">
                 </div>
             </div>
         </div>
 
         <!-- ESTRÉS -->
 
-        <div class="container-fluid mb-5"> <!--border border-primary -->
+        <div class="container-fluid"> <!--border border-primary -->
             <div class="row align-items-start p-5">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <img src="/img/salud-mental/estres.png" alt="Imagen de Salud" class="img-fluid rounded m-3" style="height: 50%;">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <img src="/img/salud-mental/estres.png" alt="Imagen de Salud" class="img-fluid rounded m-4 img-smental" style="height: 50%;">
                 </div>
             
-                <div class="col-md-6 d-flex flex-column justify-content-start text-salud p-5">
-                    <h1 class="fw-bold">Estrés</h1>
+                <div class="col-md-7 d-flex flex-column justify-content-start text-salud p-5">
+                    <h1 class="fw-bold title-smental">Estrés</h1>
                     <!-- <p class="fs-4">Conoce nuestro departamento de salud.</p> -->
-                    <p class="text-muted" style="font-size: 0.9rem;">
+                    <p class="text-muted descr-smental">
                         El estrés es un conjunto de reacciones físicas y mentales que experimenta una persona al enfrentarse a factores externos que superan su capacidad de respuesta. Se manifiesta como una reacción natural del organismo ante situaciones que se perciben como amenazantes o demandantes.
                     </p>
-
-                    <button type="button" class="btn btn-outline-dark col-sm-4 mt-4">Leer más</button>
+                    <button type="button" class="btn btn-outline-dark mt-4 col-sm-4">Leer más</button>
                 </div>
             </div>
         </div>
+
 
     </div>
 
@@ -181,3 +185,22 @@
     <script src="/js/navbar.js"></script>
 </body>
 </html>
+
+<!-- 
+<div class="container-fluid mb-5"> <!--border border-primary 
+    <div class="row align-items-start p-5">
+        <div class="col-md-6 d-flex justify-content-center">
+            <img src="/img/salud-mental/depresion.png" alt="Imagen de Salud" class="img-fluid rounded img-smental-middle" style="height: 50%; background-color: firebrick;">
+        </div>
+    
+        <div class="col-md-6 d-flex flex-column justify-content-start text-salud p-5">
+            <h1 class="fw-bold title-smental"></h1>
+            <!-- <p class="fs-4">Conoce nuestro departamento de salud.</p> -
+            <p class="text-muted descr-smental" style="font-size: 0.9rem;">
+                </p>
+
+            <button type="button" class="btn btn-outline-dark col-sm-4 mt-4">Leer más</button>
+        </div>
+    </div>
+</div>
+-->
